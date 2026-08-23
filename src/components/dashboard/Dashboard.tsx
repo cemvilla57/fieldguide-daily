@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -101,11 +102,20 @@ export function Dashboard() {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <div>
-        <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
-        <p className="text-gray-600 mt-1">
-          Welcome back! Here's your project overview.
-        </p>
+      <div className="flex items-center gap-4">
+        <Image
+          src="/pinnacle-logo.svg"
+          alt="Pinnacle Power Corp"
+          width={120}
+          height={48}
+          className="object-contain"
+        />
+        <div>
+          <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
+          <p className="text-gray-600 mt-1">
+            Welcome back! Here's your project overview.
+          </p>
+        </div>
       </div>
 
       {/* Metrics Grid */}

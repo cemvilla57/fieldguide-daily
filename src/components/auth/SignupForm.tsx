@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -80,6 +81,15 @@ export function SignupForm() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-2">
+          <div className="flex justify-center mb-2">
+            <Image
+              src="/pinnacle-logo.svg"
+              alt="Pinnacle Power Corp"
+              width={200}
+              height={80}
+              className="object-contain"
+            />
+          </div>
           <CardTitle className="text-2xl font-bold text-center">Pinnacle Daily Reports</CardTitle>
           <p className="text-center text-sm text-gray-600">Create your account</p>
         </CardHeader>
