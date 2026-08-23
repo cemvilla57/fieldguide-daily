@@ -80,6 +80,13 @@ export function SignupForm() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-2">
+          <div className="flex justify-center mb-2">
+            <img
+              src="https://github.com/user-attachments/assets/3be28159-5964-4a45-9d31-d031f8a451a0"
+              alt="Pinnacle Power Corp"
+              className="h-20 w-auto object-contain"
+            />
+          </div>
           <CardTitle className="text-2xl font-bold text-center">Pinnacle Daily Reports</CardTitle>
           <p className="text-center text-sm text-gray-600">Create your account</p>
         </CardHeader>
