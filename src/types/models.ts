@@ -273,6 +273,8 @@ export interface Photo {
   taken_at: string;
   uploaded_by: string;
   created_at: string;
+  storage_provider?: string;
+  box_file_id?: string;
 }
 
 /**
