@@ -104,7 +104,7 @@ export function Dashboard() {
       {/* Header */}
       <div className="flex items-center gap-4">
         <Image
-          src="https://github.com/user-attachments/assets/3be28159-5964-4a45-9d31-d031f8a451a0"
+          src="/pinnacle-logo.svg"
           alt="Pinnacle Power Corp"
           width={120}
           height={48}

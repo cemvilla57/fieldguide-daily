@@ -83,7 +83,7 @@ export function SignupForm() {
         <CardHeader className="space-y-2">
           <div className="flex justify-center mb-2">
             <Image
-              src="https://github.com/user-attachments/assets/3be28159-5964-4a45-9d31-d031f8a451a0"
+              src="/pinnacle-logo.svg"
               alt="Pinnacle Power Corp"
               width={200}
               height={80}
