@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Mountain silhouette in gold -->
+  <g fill="#C9A227">
+    <!-- Far left small peak -->
+    <polygon points="20,140 55,80 90,140"/>
+    <!-- Main left peak -->
+    <polygon points="50,140 100,55 150,140"/>
+    <!-- Main right peak (tallest) -->
+    <polygon points="100,140 155,30 210,140"/>
+    <!-- Right smaller peak -->
+    <polygon points="170,140 215,65 260,140"/>
+    <!-- Snow highlights on peaks -->
+    <polygon points="155,30 148,55 162,55" fill="#E8C96B"/>
+    <polygon points="100,55 95,72 105,72" fill="#E8C96B"/>
+  </g>
+  <!-- PINNACLE text -->
+  <text x="150" y="165" font-family="Georgia, serif" font-size="38" font-weight="bold" fill="#1a1a1a" text-anchor="middle" letter-spacing="2">PINNACLE</text>
+  <!-- POWER CORP text -->
+  <text x="150" y="188" font-family="Georgia, serif" font-size="16" fill="#C9A227" text-anchor="middle" letter-spacing="4">POWER CORP</text>
+</svg>
