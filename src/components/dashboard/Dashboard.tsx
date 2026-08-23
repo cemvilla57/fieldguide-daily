@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -102,10 +103,12 @@ export function Dashboard() {
     <div className="space-y-6">
       {/* Header */}
       <div className="flex items-center gap-4">
-        <img
+        <Image
           src="https://github.com/user-attachments/assets/3be28159-5964-4a45-9d31-d031f8a451a0"
           alt="Pinnacle Power Corp"
-          className="h-12 w-auto object-contain"
+          width={120}
+          height={48}
+          className="object-contain"
         />
         <div>
           <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>

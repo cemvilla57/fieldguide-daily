@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -81,10 +82,12 @@ export function SignupForm() {
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-2">
           <div className="flex justify-center mb-2">
-            <img
+            <Image
               src="https://github.com/user-attachments/assets/3be28159-5964-4a45-9d31-d031f8a451a0"
               alt="Pinnacle Power Corp"
-              className="h-20 w-auto object-contain"
+              width={200}
+              height={80}
+              className="object-contain"
             />
           </div>
           <CardTitle className="text-2xl font-bold text-center">Pinnacle Daily Reports</CardTitle>
