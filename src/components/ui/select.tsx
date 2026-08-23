@@ -44,7 +44,7 @@ const SelectContent = ({ children, className, ...props }: React.HTMLAttributes<H
 );
 
 const SelectItem = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement> & { value: string }>(
-  ({ className, children, ...props }, ref) => (
+  ({ className, children, value: _value, ...props }, ref) => (
     <div
       ref={ref}
       className={cn('relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none', className)}

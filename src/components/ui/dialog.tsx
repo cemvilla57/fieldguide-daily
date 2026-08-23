@@ -17,8 +17,8 @@ const Dialog = ({ open, onOpenChange, children }: DialogProps) => {
   );
 };
 
-const DialogTrigger = ({ children, asChild, ...props }: React.HTMLAttributes<HTMLDivElement> & { asChild?: boolean }) => (
-  <div {...props}>{children}</div>
+const DialogTrigger = ({ children, asChild, onClick, ...props }: React.HTMLAttributes<HTMLDivElement> & { asChild?: boolean }) => (
+  <div role="button" tabIndex={0} onClick={onClick} {...props}>{children}</div>
 );
 
 const DialogContent = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
